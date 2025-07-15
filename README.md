@@ -9,7 +9,7 @@
 ## Directions
 Write a program that prompts the user to enter a multiple digit positive integer then use a loop to iteratively construct the value that is the reverse 
 of that number, add the two numbers together, and print the reverse value and sum to the screen. <b>Note: Be sure that your solution is not simply printing 
-the digits of the number in reverse. For example, if the number 2468 was entered the your program will find the reverse number is 8462 and the sum of those 
+the digits of the number in reverse. For example, if the number 2468 was entered then your program will find the reverse number is 8462 and the sum of those 
 two values is 11110.</b>
 
 ## Interface Prototype Example
