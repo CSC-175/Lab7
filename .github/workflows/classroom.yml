@@ -1,6 +1,6 @@
 name: Autograding Tests
 'on':
-- workflow_dispatch
+- push
 - repository_dispatch
 permissions:
   checks: write
@@ -20,7 +20,9 @@ jobs:
         test-name: Test 1
         setup-command: g++ Lab7.cpp -o Lab7
         command: "./Lab7"
-        input: '426'
+        input: '426
+
+          '
         expected-output: |-
           The reverse of the number is 624
           The sum of the two number is 1050
@@ -34,7 +36,9 @@ jobs:
         test-name: Test 2
         setup-command: g++ Lab7.cpp -o Lab7
         command: "./Lab7"
-        input: '321'
+        input: '321
+
+          '
         expected-output: |-
           The reverse of the number is 123
           The sum of the two number is 444
@@ -48,7 +52,9 @@ jobs:
         test-name: Test 3
         setup-command: g++ Lab7.cpp -o Lab7
         command: "./Lab7"
-        input: '2174'
+        input: '2174
+
+          '
         expected-output: |-
           The reverse of the number is 4712
           The sum of the two number is 6886
